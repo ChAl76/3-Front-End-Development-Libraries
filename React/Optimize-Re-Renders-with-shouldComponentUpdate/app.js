@@ -12,7 +12,6 @@ class OnlyEvens extends React.Component {
     console.log('Should I update?');
     // Change code below this line
     return nextProps.value % 2 === 0;
-
     // Change code above this line
   }
   componentDidUpdate() {
@@ -46,4 +45,4 @@ class Controller extends React.Component {
   }
 }
 
-ReactDOM.render(<OnlyEvens />, document.getElementById('challenge-node'));
+ReactDOM.render(<Controller />, document.getElementById('challenge-node'));
